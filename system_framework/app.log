@@ -1,0 +1,8 @@
+2024-08-09 15:37:15,898 - app - INFO - Using device: cpu
+2024-08-09 15:37:15,901 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2024-08-09 15:37:16,035 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/CompVis/stable-diffusion-v1-4 HTTP/11" 200 7461
+2024-08-09 15:37:16,132 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /CompVis/stable-diffusion-v1-4/resolve/main/model_index.json HTTP/11" 200 0
+2024-08-09 15:37:17,064 - app - INFO - Stable Diffusion model loaded successfully
+2024-08-09 15:37:17,065 - app - INFO - Generating image with prompt: 'simple prompt' and style: 'lightweight'
+2024-08-09 15:37:17,065 - app - INFO - Full prompt: simple prompt in lightweight style
+2024-08-09 15:37:17,065 - app - INFO - Starting image generation
